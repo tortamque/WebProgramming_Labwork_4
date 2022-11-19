@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 650px) {
+@media screen and (max-width: 650px) {
 
     @font-face {
         font-family: "OpenSansBold";
@@ -13,8 +13,8 @@
     body{
         margin: 0;
         background:linear-gradient(0deg, #e1b6bf 0, #e1b6bf 33%, #5a437a 33%, #5a437a 66%, #e1b6bf 66%, #e1b6bf 100%);
-        background-attachment: fixed;
         background-repeat: no-repeat;
+        background-attachment: scroll;
     }
 
     div.content{
